@@ -1,0 +1,7 @@
+<div *ngIf="showComments">
+    <div *ngFor="let comment of comments">
+      <p><strong>{{ comment.name }}</strong></p>
+      <p>{{ comment.body }}</p>
+    </div>
+  </div>
+  
